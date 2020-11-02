@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+a{
+    text-decoration: none !important;
+}
+.container{
+    margin-top: 10px;
+    max-width: 1240px;
+}
+.fa-bars{
+    width: 50px;
+   margin-left: -10px;
+}
+.navbar{
+    margin: auto;
+    margin-top: 12px;
+}
+.menubg{
+    margin: auto;
+    background-color: white;
+}
+.navbar-menu li a{
+    color:black !important;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.navbar-menu li a:hover{
+    color:#ffb31a !important;
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+}
+.nav-phone{
+    font-size: 14px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+.nav__phone-number{
+    color: #222222;
+    margin-right: 60px;
+}
+.nav__phone-number:hover{
+    color: #ffb31a;
+}
+.socials a{
+    display: inline-block;
+    color: #222222;
+    text-align: center;
+    font-size: 17px;
+}
+.socials a:hover{
+    display: inline-block;
+    color: #ffb31a;
+    text-align: center;
+    font-size: 17px;
+}
+.buton{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    width: 190px;
+    height: 50px;
+    color:  #222222;
+    background-color:  #ffb31a;
+    border: none;
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 2px;
+}
+.slayt-gorsel{
+    max-width: 100%;
+    height: auto;
+}
+.siyah .slayt-baslik{
+    font-size: 42px;
+    font-weight: 600;
+    font-family: "Barlow", sans-serif;
+    margin-top: 105px;
+    margin-left: 140px;
+}   
+.slayt-yazi{
+    margin-left: 140px;
+    font-size: 18;
+    font-family: "Open Sans", sans-serif;    
+}
+.yazibir-baslik{
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: Barlow, sans-serif;
+    font-weight: 700;
+    color: #222222;
+}
+.yazibir-paragraf{
+    color: #868686;
+    line-height: 26px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Open Sans", sans-serif;
+}
+.intro-gorsel{
+    margin-top: 100px;
+    width: 445px;
+    height: 445px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background:  #e2e2e2;
+}
+::-webkit-scrollbar-thumb{
+    background: #ffb31a;
+}
+.section-title{
+    color: #222222;
+    margin-top: 120px;
+    font-family: "Barlow", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.masonry-filter {
+    margin-bottom: 60px;
+    margin-left: -12px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+  
+  .masonry-filter a {
+    display: inline-block;
+    position: relative;
+    padding: 0 12px;
+    color: #868686;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  
+  .masonry-filter a.active, .masonry-filter a:hover {
+    color: #ffb31a;
+  }
+  
+  .masonry-filter a.active:after, .masonry-filter a:hover:after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    height: 1px;
+    width: 28px;
+    background-color: #ffb31a;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  .masonryalt{
+      margin-top: 30px;
+  }
+.card-title{
+    margin-top: -60px;
+    margin-left: 10px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes example {
+    from {top: 0px;}
+    to {top: -25px;}
+  }
+
+.card-title .yil{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+  .masonry-text{
+      font-size: 24px;
+      font-family: Barlow, sans-serif;
+      font-weight: 700;
+      line-height: 29px;
+      color: #ffff;
+  }
+  .masonry-alt-gorsel{
+    margin-top: 20px;
+}
+.masonry-ucuncu-gorsel{
+    margin-top: 10px;
+    height: 290px;
+}
+
+.alintialansiyah{
+    background-color: black;
+    height: 600px;
+    margin-top: 100px;
+}
+.row .saribaslik{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.56;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    letter-spacing: 0.3em;
+    color: #ffb31a;
+    margin-top: 140px;
+    margin-left: 540px;
+}
+.beyazbuyukbaslik{
+    font-family: "Barlow", sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-left: 380px;
+
+}
+.tirnak{
+    margin-top: 50px;
+    margin-left: -250px;
+    color: #868686;
+    font-family: sans-serif;
+    font-size: 120px;
+    text-align: center;
+
+}
+.alintisoz{
+    color: #868686;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: -80px;
+    margin-left: 130px;
+    text-align: center;
+
+}
+.isim{
+    color: white;
+    margin-left: 505px;
+    margin-top: 20px;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+.taksim{
+    color: white;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.sirket{
+    color: #ffb31a;
+    font-family: "Barlow", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.firmalar{
+    background-color: #f9f9f9;
+    height: 170px;
+    margin: auto;
+}
+.markalar{
+    margin: auto;
+    padding-top: 10px;
+}
+.haber{
+    margin-top: 100px;
+    max-width: 1100px;
+}
+.blogbaslik{
+    color: #ffb31a;
+    letter-spacing: 0.3em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 22px;
+
+}
+.newsbaslik{
+    color: #222222;
+    font-family: "Barlow", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.newsicerik{
+    color: #868686;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+.biziara{
+    margin-top: 50px;
+    background-color: #FFB31A;
+    width: 280px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.musterihiz{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 70px;   
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+.musteriikon{
+    font-size: 48px;
+}
+.biziaranumara{
+    color: #222222;
+    font-family: "Barlow", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 45px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    margin-left: 5px;
+}
+.biziaranumara:hover{
+    color: #222222;
+}
+.makale-tarih{
+    color: #9e9e9e;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+.makale-baslik{
+    color: #222222;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+}
+.makale-baslik:hover{
+    color: #222222;
+}
+.haber-resim{
+    margin-left: 20px;
+    width: 300px;
+}
+.cember{
+    margin-left: 20px;
+    display: inline-block;
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #cacaca;
+    margin-right: 14px;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+}
+.cember-icerik{
+    color: #9e9e9e;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    overflow: hidden;
+}
+.cember-icerik:hover{
+    color: #222222;
+}
+.cizgi{
+    width: 660px;
+}
+.footer{
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 395px;
+}
+.beyaz-logo{
+    margin-top: 80px;
+    margin-left: -80px;
+}
+.socials-footer{
+    color: #868686;
+    font-size: 21px;
+}
+.socials-footer:hover{
+    color: #ffb31a;
+    font-size: 21px;
+}
+.sayfa{
+    color: #868686;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.sayfa:hover{
+    color: #ffb31a;
+}
+.sayfa-hizala{
+    margin-top: 80px;
+}
+.telif{
+    color: #868686;
+    text-align: center;
+    margin-top: -50px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+@media (max-width: 576px){
+    .siyah .slayt-baslik{
+        font-size: 32px;
+        font-weight: 600;
+        font-family: "Barlow", sans-serif;
+        margin-top: 50px;
+        margin-left: 5px;
+    }
+    .slayt-yazi{
+        margin-left: 10px;
+        font-size: 18;
+        font-family: "Open Sans", sans-serif;    
+    }
+    .slayt-gorsel{
+        height: 450px;
+    }
+    .buton{
+        font-size: 16px;
+        font-weight: 600;
+        font-family: "Barlow", sans-serif;
+        width: 190px;
+        height: 50px;
+        color:  #222222;
+        background-color:  #ffb31a;
+        border: none;
+        margin-top: 20px;
+        margin-left: 30px;
+        border-radius: 2px;
+    }
+    .socials a{
+        display: inline-block;
+        color: #222222;
+        text-align: center;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .nav-phone{
+        font-size: 16px;
+        font-family: "Barlow", sans-serif;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-left: 70px;
+    }
+    .navbar-menu li a{
+        color:black !important;
+        font-size: 15px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+        border-bottom: 1px solid rgb(221, 221, 221, 0.8);
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .navbar-menu li a:hover{
+        color:#ffb31a !important;
+        font-size: 15px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 700;
+    }
+    .navbar-toggler{
+        margin-right: 16px;
+        position: relative;
+        padding: 9px 0 9px 10px;
+        background-color: transparent;
+        border: none;
+        z-index: 50;
+    }
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        border: 7px solid #e2e2e2;
+        box-shadow: inset 0.0 2.5px 2px rgba(0, 0, 0, 0.5);
+    }
+    ::-webkit-scrollbar-thumb{
+        background: linear-gradient(
+            45deg,
+            #ffb31a,
+            #ffb31a
+        );
+        border-radius: 3px;
+    }
+   
+    .masonryalt{
+        margin-top: 8px;
+       
+    }
+    .masonry-alt-gorsel{
+        margin-top: 5px;
+    }
+
+    .alintialansiyah{
+        background-color: black;
+        height: 500px;
+        margin-top: 50px;
+    }
+    .row .saribaslik{
+        font-size: 14px;
+        line-height: 1.56;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        letter-spacing: 0.3em;
+        color: #ffb31a;
+        margin-top: 70px;
+        margin-left: 95px;
+    }
+    .beyazbuyukbaslik{
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 48px;
+        margin-left: 30px;
+    
+    }
+    .tirnak{
+        margin-top: 30px;
+        margin-left: -155px;
+        color: #868686;
+        font-family: sans-serif;
+        font-size: 80px;
+        text-align: center;
+    
+    }
+    .alintisoz{
+        color: #868686;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 36px;
+        margin-top: -60px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    
+    }
+    .isim{
+        color: white;
+        margin-left: 60px;
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        font-family: sans-serif;
+    }
+    .taksim{
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+    .sirket{
+        color: #ffb31a;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+    .firmalar{
+        background-color: #f9f9f9;
+        height: 500px;
+        margin: auto;
+        text-align: center;
+    }
+   .markalarmobile{
+       max-width: 150px;
+       margin-bottom: -40px;
+   }
+   .haber{
+    margin-top: 40px;
+}
+   .haber-resim{
+    margin: auto;
+    margin-top: 30px;
+    width: 300px;
+}
+   .biziara{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cizgi{
+    width: 300px;
+}
+.beyaz-logo{
+    padding-left: 130px;
+    margin-top: 80px;
+    margin-left: -80px;
+}
+.footer{
+    background-color: black;   
+    padding-left: 50px;
+    height: 650px;
+}
+.socials-footer{
+    color: #868686;
+    font-size: 16px;
+}
+.socials-footer:hover{
+    color: #ffb31a;
+    font-size: 16px;
+}
+.sayfa{
+    color: #868686;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.sayfa:hover{
+    color: #ffb31a;
+}
+.sayfa-hizala{
+    margin-top: 40px;
+}
+.telif{
+    color: #868686;
+    text-align: center;
+    margin-top: -50px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+}
